@@ -1,0 +1,11 @@
+categories:
+  Finance:
+    keywords: ["invoice", "receipt", "payment", "contract"]
+  Legal:
+    keywords: ["nda", "agreement", "terms"]
+  Uncategorized:
+    keywords: []
+
+file_types:
+  documents: [".pdf", ".doc", ".docx", ".txt"]
+  images: [".png", ".jpg", ".jpeg"]
