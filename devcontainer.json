@@ -1,0 +1,11 @@
+{
+  "name": "DocFlow",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+  "runArgs": ["--volume", "${localWorkspaceFolder}:/workspace"],
+  "postCreateCommand": "pip install -e ."
+}
